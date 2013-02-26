@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/qml">
+        <file>qml/main.qml</file>
+        <file>qml/FilesPage.qml</file>
+        <file>qml/CheckableButton.qml</file>
+        <file>qml/Button.qml</file>
+        <file>qml/Label.qml</file>
+        <file>qml/Menu.qml</file>
+        <file>qml/YesNoDialog.qml</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file alias="folder">resources/images/folder.png</file>
+        <file alias="file">resources/images/file.png</file>
+    </qresource>
+</RCC>
