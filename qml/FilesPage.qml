@@ -127,6 +127,8 @@ Item {
                 onClicked: {
                     filex.goUp()
                 }
+
+
             }
 
             CheckableButton {
@@ -153,6 +155,10 @@ Item {
                         dlgDelete.open()
                     }
                 }
+
+                opacity: btnSelect.checked ? 1 : 0
+
+                Behavior on opacity { NumberAnimation{}}
             }
 
             /*Button {
